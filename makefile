@@ -1,7 +1,6 @@
 CC = g++
 libs = ./libs
 options = -std=c++11
-libraries = -lopengl32 -lglfw3
 src = ./src
 bin = ./bin
 obj = $(bin)/objects
@@ -16,12 +15,14 @@ imgui = $(libs)/imgui-1.88
 
 ifeq ($(OS),Windows_NT)
 	exec = App.exe
+	libraries = -lopengl32 -lglfw3
 	run = cd bin && $(exec)
 	clean = del .\bin\*.exe && del .\bin\objects\*.o
 else
 	exec = App
-	run = ./$(exec)
-	clean = rm ./bin.exe && rm ./bin/objects/*.o
+	libraries = -lglfw3 -lGL -ldl -lGLU -lX11 -lpthread -lGLEW
+	run = (cd $(bin) && ./$(exec))
+	clean = rm ./bin/$(exec) && rm ./bin/objects/*.o
 endif
 
 
