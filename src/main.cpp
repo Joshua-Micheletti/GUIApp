@@ -6,16 +6,8 @@
 #include <imgui_impl_opengl3.h>
 #include <stdio.h>
 
-#ifndef GUI_H
-#define GUI_H
-    #include "gui.h"
-#endif
-
-#ifndef MODEL_H
-#define MODEL_H
-    #include "model.h"
-#endif
-
+#include "gui.h"
+#include "model.h"
 #include "controller.h"
 
 static void error_callback(int error, const char* description) {
@@ -46,6 +38,7 @@ int main() {
 
     Gui gui(window);
     Model model(&gui);
+    gui.loadModel(&model);
 
     bool show_demo_window = true;
 

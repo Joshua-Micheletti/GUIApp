@@ -1,7 +1,8 @@
-#ifndef GUI_H
-#define GUI_H
-    #include "gui.h"
-#endif
+#ifndef MODEL_H
+#define MODEL_H
+
+#include "gui.h"
+class Gui;
 
 class Model {
     public:
@@ -9,3 +10,5 @@ class Model {
         Model(Gui*);
         void run();
 };
+
+#endif

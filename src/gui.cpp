@@ -11,6 +11,10 @@ Gui::Gui(GLFWwindow* window) {
     ImGui_ImplOpenGL3_Init("#version 130");
 }
 
+void Gui::loadModel(Model *model) {
+    this->model = model;
+}
+
 void Gui::draw() {
     ImGui_ImplOpenGL3_NewFrame();
     ImGui_ImplGlfw_NewFrame();
