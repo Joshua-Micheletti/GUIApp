@@ -1,4 +1,4 @@
-# Install script for directory: /home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/tests
+# Install script for directory: /home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7/tests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -82,17 +82,17 @@ GL/gl.h
 GL/glext.h
 -
 
-/home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/deps/getopt.c
+/home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7/deps/getopt.c
 getopt.h
-/home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/deps/getopt.h
+/home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7/deps/getopt.h
 stddef.h
 -
 string.h
 -
 
-/home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/deps/getopt.h
+/home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7/deps/getopt.h
 
-/home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/deps/glad_gl.c
+/home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7/deps/glad_gl.c
 stdio.h
 -
 stdlib.h
@@ -102,9 +102,9 @@ string.h
 glad/gl.h
 -
 
-/home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/deps/tinycthread.c
+/home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7/deps/tinycthread.c
 tinycthread.h
-/home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/deps/tinycthread.h
+/home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7/deps/tinycthread.h
 stdlib.h
 -
 signal.h
@@ -122,7 +122,7 @@ process.h
 sys/timeb.h
 -
 
-/home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/deps/tinycthread.h
+/home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7/deps/tinycthread.h
 time.h
 -
 sys/time.h
@@ -132,7 +132,7 @@ pthread.h
 windows.h
 -
 
-/home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/examples/particles.c
+/home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7/examples/particles.c
 stdlib.h
 -
 stdio.h

@@ -62,10 +62,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7
+CMAKE_SOURCE_DIR = /home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/build
+CMAKE_BINARY_DIR = /home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7/build
 
 # Utility rule file for update_mappings.
 
@@ -73,8 +73,8 @@ CMAKE_BINARY_DIR = /home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/build
 include src/CMakeFiles/update_mappings.dir/progress.make
 
 src/CMakeFiles/update_mappings:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Updating gamepad mappings from upstream repository"
-	cd /home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/src && /usr/bin/cmake -P /home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/CMake/GenerateMappings.cmake mappings.h.in mappings.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Updating gamepad mappings from upstream repository"
+	cd /home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7/src && /usr/bin/cmake -P /home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7/CMake/GenerateMappings.cmake mappings.h.in mappings.h
 
 update_mappings: src/CMakeFiles/update_mappings
 update_mappings: src/CMakeFiles/update_mappings.dir/build.make
@@ -87,10 +87,10 @@ src/CMakeFiles/update_mappings.dir/build: update_mappings
 .PHONY : src/CMakeFiles/update_mappings.dir/build
 
 src/CMakeFiles/update_mappings.dir/clean:
-	cd /home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/build/src && $(CMAKE_COMMAND) -P CMakeFiles/update_mappings.dir/cmake_clean.cmake
+	cd /home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7/build/src && $(CMAKE_COMMAND) -P CMakeFiles/update_mappings.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/update_mappings.dir/clean
 
 src/CMakeFiles/update_mappings.dir/depend:
-	cd /home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7 /home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/src /home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/build /home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/build/src /home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/build/src/CMakeFiles/update_mappings.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7 /home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7/src /home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7/build /home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7/build/src /home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7/build/src/CMakeFiles/update_mappings.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/update_mappings.dir/depend
 

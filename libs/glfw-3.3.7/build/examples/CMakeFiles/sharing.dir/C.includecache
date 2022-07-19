@@ -72,7 +72,7 @@ GL/gl.h
 GL/glext.h
 -
 
-/home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/deps/glad_gl.c
+/home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7/deps/glad_gl.c
 stdio.h
 -
 stdlib.h
@@ -82,7 +82,7 @@ string.h
 glad/gl.h
 -
 
-/home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/examples/sharing.c
+/home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7/examples/sharing.c
 glad/gl.h
 -
 GLFW/glfw3.h
@@ -92,7 +92,7 @@ stdio.h
 stdlib.h
 -
 getopt.h
-/home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/examples/getopt.h
+/home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7/examples/getopt.h
 linmath.h
-/home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/examples/linmath.h
+/home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7/examples/linmath.h
 

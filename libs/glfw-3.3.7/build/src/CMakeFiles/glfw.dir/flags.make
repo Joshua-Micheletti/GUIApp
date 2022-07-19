@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -D_GLFW_USE_CONFIG_H
 
-C_INCLUDES = -I/home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/include -I/home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/src -I/home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/build/src
+C_INCLUDES = -I/home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7/include -I/home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7/src -I/home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7/build/src
 
 C_FLAGS = -fPIC -Wall -std=gnu99
 

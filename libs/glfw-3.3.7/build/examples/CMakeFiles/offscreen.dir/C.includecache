@@ -104,7 +104,7 @@ EGL/egl.h
 GL/osmesa.h
 -
 
-/home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/deps/glad_gl.c
+/home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7/deps/glad_gl.c
 stdio.h
 -
 stdlib.h
@@ -114,7 +114,7 @@ string.h
 glad/gl.h
 -
 
-/home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/examples/offscreen.c
+/home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7/examples/offscreen.c
 glad/gl.h
 -
 GLFW/glfw3.h
@@ -122,7 +122,7 @@ GLFW/glfw3.h
 GLFW/glfw3native.h
 -
 linmath.h
-/home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/examples/linmath.h
+/home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7/examples/linmath.h
 stdlib.h
 -
 stdio.h

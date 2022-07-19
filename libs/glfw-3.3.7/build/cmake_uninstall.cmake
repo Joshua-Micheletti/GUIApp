@@ -1,9 +1,9 @@
 
-if (NOT EXISTS "/home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/build/install_manifest.txt")
-  message(FATAL_ERROR "Cannot find install manifest: \"/home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/build/install_manifest.txt\"")
+if (NOT EXISTS "/home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7/build/install_manifest.txt")
+  message(FATAL_ERROR "Cannot find install manifest: \"/home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7/build/install_manifest.txt\"")
 endif()
 
-file(READ "/home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/build/install_manifest.txt" files)
+file(READ "/home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7/build/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 
 foreach (file ${files})

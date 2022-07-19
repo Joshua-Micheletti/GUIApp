@@ -80,17 +80,17 @@ GL/gl.h
 GL/glext.h
 -
 
-/home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/deps/getopt.c
+/home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7/deps/getopt.c
 getopt.h
-/home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/deps/getopt.h
+/home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7/deps/getopt.h
 stddef.h
 -
 string.h
 -
 
-/home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/deps/getopt.h
+/home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7/deps/getopt.h
 
-/home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/deps/glad_gl.c
+/home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7/deps/glad_gl.c
 stdio.h
 -
 stdlib.h
@@ -100,7 +100,7 @@ string.h
 glad/gl.h
 -
 
-/home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/deps/glad_vulkan.c
+/home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7/deps/glad_vulkan.c
 stdio.h
 -
 stdlib.h
@@ -110,7 +110,7 @@ string.h
 glad/vulkan.h
 -
 
-/home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/tests/glfwinfo.c
+/home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7/tests/glfwinfo.c
 glad/gl.h
 -
 glad/vulkan.h
@@ -124,5 +124,5 @@ stdlib.h
 string.h
 -
 getopt.h
-/home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/tests/getopt.h
+/home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7/tests/getopt.h
 

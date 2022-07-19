@@ -62,10 +62,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7
+CMAKE_SOURCE_DIR = /home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/build
+CMAKE_BINARY_DIR = /home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7/build
 
 # Include any dependencies generated for this target.
 include tests/CMakeFiles/iconify.dir/depend.make
@@ -78,42 +78,42 @@ include tests/CMakeFiles/iconify.dir/flags.make
 
 tests/CMakeFiles/iconify.dir/iconify.c.o: tests/CMakeFiles/iconify.dir/flags.make
 tests/CMakeFiles/iconify.dir/iconify.c.o: ../tests/iconify.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object tests/CMakeFiles/iconify.dir/iconify.c.o"
-	cd /home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/iconify.dir/iconify.c.o -c /home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/tests/iconify.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object tests/CMakeFiles/iconify.dir/iconify.c.o"
+	cd /home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7/build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/iconify.dir/iconify.c.o -c /home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7/tests/iconify.c
 
 tests/CMakeFiles/iconify.dir/iconify.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/iconify.dir/iconify.c.i"
-	cd /home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/tests/iconify.c > CMakeFiles/iconify.dir/iconify.c.i
+	cd /home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7/build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7/tests/iconify.c > CMakeFiles/iconify.dir/iconify.c.i
 
 tests/CMakeFiles/iconify.dir/iconify.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/iconify.dir/iconify.c.s"
-	cd /home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/tests/iconify.c -o CMakeFiles/iconify.dir/iconify.c.s
+	cd /home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7/build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7/tests/iconify.c -o CMakeFiles/iconify.dir/iconify.c.s
 
 tests/CMakeFiles/iconify.dir/__/deps/getopt.c.o: tests/CMakeFiles/iconify.dir/flags.make
 tests/CMakeFiles/iconify.dir/__/deps/getopt.c.o: ../deps/getopt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object tests/CMakeFiles/iconify.dir/__/deps/getopt.c.o"
-	cd /home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/iconify.dir/__/deps/getopt.c.o -c /home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/deps/getopt.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object tests/CMakeFiles/iconify.dir/__/deps/getopt.c.o"
+	cd /home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7/build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/iconify.dir/__/deps/getopt.c.o -c /home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7/deps/getopt.c
 
 tests/CMakeFiles/iconify.dir/__/deps/getopt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/iconify.dir/__/deps/getopt.c.i"
-	cd /home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/deps/getopt.c > CMakeFiles/iconify.dir/__/deps/getopt.c.i
+	cd /home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7/build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7/deps/getopt.c > CMakeFiles/iconify.dir/__/deps/getopt.c.i
 
 tests/CMakeFiles/iconify.dir/__/deps/getopt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/iconify.dir/__/deps/getopt.c.s"
-	cd /home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/deps/getopt.c -o CMakeFiles/iconify.dir/__/deps/getopt.c.s
+	cd /home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7/build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7/deps/getopt.c -o CMakeFiles/iconify.dir/__/deps/getopt.c.s
 
 tests/CMakeFiles/iconify.dir/__/deps/glad_gl.c.o: tests/CMakeFiles/iconify.dir/flags.make
 tests/CMakeFiles/iconify.dir/__/deps/glad_gl.c.o: ../deps/glad_gl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object tests/CMakeFiles/iconify.dir/__/deps/glad_gl.c.o"
-	cd /home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/iconify.dir/__/deps/glad_gl.c.o -c /home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/deps/glad_gl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object tests/CMakeFiles/iconify.dir/__/deps/glad_gl.c.o"
+	cd /home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7/build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/iconify.dir/__/deps/glad_gl.c.o -c /home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7/deps/glad_gl.c
 
 tests/CMakeFiles/iconify.dir/__/deps/glad_gl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/iconify.dir/__/deps/glad_gl.c.i"
-	cd /home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/deps/glad_gl.c > CMakeFiles/iconify.dir/__/deps/glad_gl.c.i
+	cd /home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7/build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7/deps/glad_gl.c > CMakeFiles/iconify.dir/__/deps/glad_gl.c.i
 
 tests/CMakeFiles/iconify.dir/__/deps/glad_gl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/iconify.dir/__/deps/glad_gl.c.s"
-	cd /home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/deps/glad_gl.c -o CMakeFiles/iconify.dir/__/deps/glad_gl.c.s
+	cd /home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7/build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7/deps/glad_gl.c -o CMakeFiles/iconify.dir/__/deps/glad_gl.c.s
 
 # Object files for target iconify
 iconify_OBJECTS = \
@@ -134,8 +134,8 @@ tests/iconify: /usr/lib/x86_64-linux-gnu/librt.so
 tests/iconify: /usr/lib/x86_64-linux-gnu/libm.so
 tests/iconify: /usr/lib/x86_64-linux-gnu/libX11.so
 tests/iconify: tests/CMakeFiles/iconify.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable iconify"
-	cd /home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/build/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/iconify.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable iconify"
+	cd /home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7/build/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/iconify.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tests/CMakeFiles/iconify.dir/build: tests/iconify
@@ -143,10 +143,10 @@ tests/CMakeFiles/iconify.dir/build: tests/iconify
 .PHONY : tests/CMakeFiles/iconify.dir/build
 
 tests/CMakeFiles/iconify.dir/clean:
-	cd /home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/build/tests && $(CMAKE_COMMAND) -P CMakeFiles/iconify.dir/cmake_clean.cmake
+	cd /home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7/build/tests && $(CMAKE_COMMAND) -P CMakeFiles/iconify.dir/cmake_clean.cmake
 .PHONY : tests/CMakeFiles/iconify.dir/clean
 
 tests/CMakeFiles/iconify.dir/depend:
-	cd /home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7 /home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/tests /home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/build /home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/build/tests /home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/build/tests/CMakeFiles/iconify.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7 /home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7/tests /home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7/build /home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7/build/tests /home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7/build/tests/CMakeFiles/iconify.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tests/CMakeFiles/iconify.dir/depend
 

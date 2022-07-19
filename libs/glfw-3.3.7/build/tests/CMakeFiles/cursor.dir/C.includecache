@@ -70,7 +70,7 @@ GL/gl.h
 GL/glext.h
 -
 
-/home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/deps/glad_gl.c
+/home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7/deps/glad_gl.c
 stdio.h
 -
 stdlib.h
@@ -80,7 +80,7 @@ string.h
 glad/gl.h
 -
 
-/home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/tests/cursor.c
+/home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7/tests/cursor.c
 glad/gl.h
 -
 GLFW/glfw3.h
@@ -92,5 +92,5 @@ stdio.h
 stdlib.h
 -
 linmath.h
-/home/joshua/Scrivania/GUIApp/libs/glfw-3.3.7/tests/linmath.h
+/home/cutefish/Desktop/GUIApp/libs/glfw-3.3.7/tests/linmath.h
 
