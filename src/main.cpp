@@ -36,6 +36,8 @@ int main() {
     gladLoadGL();
     glfwSwapInterval(1);
 
+    glClearColor(0.1f, 0.1f, 0.1f, 1.0f);
+
     Gui gui(window);
     Model model(&gui);
     gui.loadModel(&model);
