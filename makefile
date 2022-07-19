@@ -28,7 +28,7 @@ else
 	run = (cd $(bin) && ./$(exec))
 	clean = rm ./bin/$(exec) && rm ./bin/objects/*.o
 	escape = \033
-	echo = echo -e
+	echo = echo
 	noColor = $(escape)[0m
 	marks = "
 endif
